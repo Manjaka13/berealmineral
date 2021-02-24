@@ -1,3 +1,5 @@
+@import "../config";
+
 .app {
 	display: block;
 	margin: 40px;
@@ -6,4 +8,12 @@
 	height: 100vh;
 	border-radius: 40px;
 	box-shadow: 0px 0px 9px black;
+	overflow: hidden;
+	@media only screen and (max-width: $app-screen-sm) {
+		margin: 20px;
+	}
+	@media only screen and (max-width: $app-screen-xsm) {
+		margin: 0;
+		border-radius: 0;
+	}
 }

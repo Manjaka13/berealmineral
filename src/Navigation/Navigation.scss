@@ -1,0 +1,92 @@
+@import "../config";
+
+.navigation {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	.box {
+		display: block;
+		width: 100%;
+		height: auto;
+		.brand {
+			margin-left: 40px;
+			margin-top: 7px;
+			@media only screen and (max-width: 1000px) {
+				margin-left: 10px;
+				height: 40px;
+				margin-top: 12px;
+			}
+			@media only screen and (max-width: $app-screen-sm) {
+				margin-top: 8px;
+				margin-left: 20px;
+			}
+			@media only screen and (max-width: $app-screen-xsm) {
+				margin-left: 10px;
+			}
+		}
+		.list {
+			float: right;
+			padding-right: 30px;
+			@media only screen and (max-width: 1000px) {
+				padding-right: 0;
+			}
+			@media only screen and (max-width: $app-screen-sm) {
+				display: none;
+			}
+			.item {
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 10px;
+				margin-right: 10px;
+				.link {
+					display: block;
+					color: rgb(150, 150, 150);
+					font-weight: bold;
+					padding-top: 23px;
+					padding-bottom: 20px;
+					&:hover {
+						color: white;
+						text-shadow: 0px 0px 3px white;
+					}
+				}
+			}
+		}
+		.trigger {
+			display: none;
+			float: right;
+			width: 40px;
+			height: 40px;
+			border: 3px rgb(150, 150, 150) solid;
+			border-radius: 50%;
+			overflow: hidden;
+			background: rgba(0, 0, 0, 0.3);
+			transition: all 0.2s ease-in-out;
+			margin-right: 20px;
+			margin-top: 4px;
+			text-align: center;
+			font-size: 17pt;
+			color: rgb(150, 150, 150);
+			cursor: pointer;
+			box-shadow: 0px 1px 2px black;
+			&:hover {
+				border: 3px white solid;
+				color: white;
+				background: rgba(0, 0, 0, 0.7);
+			}
+			&:active {
+				box-shadow: 0px 0px 10px white;
+			}
+			@media only screen and (max-width: $app-screen-sm) {
+				display: block;
+			}
+			@media only screen and (max-width: $app-screen-xsm) {
+				margin-right: 10px;
+			}
+			.icon {
+				margin-top: 9px;
+			}
+		}
+	}
+}
