@@ -1,0 +1,46 @@
+@import "../config";
+
+.copyright {
+	display: block;
+	width: 100%;
+	pre {
+		display: inline;
+	}
+	.text-left, .text-right {
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: white;
+		text-shadow: 0px 1px 2px black;
+		@media only screen and (max-width: $app-screen-xsm) {
+			display: block;
+			width: 100%;
+		}
+	}
+	.text-left {
+		text-align: right;
+		@media only screen and (max-width: $app-screen-xsm) {
+			text-align: center;
+			padding-bottom: 5px;
+		}
+		.heart {
+			color: red;
+		}
+		.link {
+			color: rgb(150, 150, 150);
+			&:hover {
+				text-shadow: 0px 0px 3px white;
+				color: white;
+			}
+		}
+	}
+	.text-right {
+		text-align: left;
+		@media only screen and (max-width: $app-screen-xsm) {
+			text-align: center;
+			padding-top: 5px;
+		}
+	}
+}
