@@ -1,0 +1,131 @@
+/*
+	Some global styling
+*/
+@import "./config";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body, main, #__next, .app-page {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: rgb(16, 14, 53);
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.app-title {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: rgb(59, 67, 81);
+}
+.app-title-xlg {
+    font-size: 50pt;
+}
+.app-title-lg {
+    font-size: 40pt;
+}
+.app-title-md {
+    font-size: 30pt;
+}
+.app-title-sm {
+    font-size: 25pt;
+}
+.app-title-xsm {
+    font-size: 20pt;
+}
+@media only screen and (max-width: $app-screen-lg) {
+	.app-title-xlg {
+    	font-size: 40pt;
+	}
+	.app-title-lg {
+	    font-size: 30pt;
+	}
+	.app-title-md {
+	    font-size: 25pt;
+	}
+	.app-title-sm {
+	    font-size: 22pt;
+	}
+	.app-title-xsm {
+	    font-size: 18pt;
+	}
+}
+@media only screen and (max-width: $app-screen-md) {
+	.app-title-xlg {
+    	font-size: 30pt;
+	}
+	.app-title-lg {
+	    font-size: 25pt;
+	}
+	.app-title-md {
+	    font-size: 22pt;
+	}
+	.app-title-sm {
+	    font-size: 18pt;
+	}
+	.app-title-xsm {
+	    font-size: 15pt;
+	}
+}
+@media only screen and (max-width: $app-screen-xsm) {
+	.app-title-xlg {
+    	font-size: 20pt;
+	}
+	.app-title-lg {
+	    font-size: 18pt;
+	}
+	.app-title-md {
+	    font-size: 16pt;
+	}
+	.app-title-sm {
+	    font-size: 15pt;
+	}
+	.app-title-xsm {
+	    font-size: 13pt;
+	}
+}
+.app-text-colored {
+	color: rgb(200, 200, 200);
+}
+.app-text {
+	text-align: justify;
+	font-size: 16pt;
+	padding: 0;
+	margin: 0;
+}
+@media only screen and (max-width: $app-screen-lg) {
+	.app-text {
+		font-size: 15pt;
+	}
+}
+@media only screen and (max-width: $app-screen-md) {
+	.app-text {
+		font-size: 13pt;
+	}
+}
+@media only screen and (max-width: $app-screen-sm) {
+	.app-text {
+		font-size: 12pt;
+	}
+}
+@media only screen and (max-width: $app-screen-xsm) {
+	.app-text {
+		font-size: 11pt;
+	}
+}

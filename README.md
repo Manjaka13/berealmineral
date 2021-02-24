@@ -1,2 +1,2 @@
-# berealmineral
-Bertrand Rigal's website for selling precious stones.
+## Berealmineral
+Bertrand Rigal's official website for selling precious stones
