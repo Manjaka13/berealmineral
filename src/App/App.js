@@ -3,6 +3,7 @@ import "./App.scss";
 import Navigation from "../Navigation/Navigation";
 import Cover from "../Cover/Cover";
 import About from "../About/About";
+import Advantages from "../Advantages/Advantages";
 import Copyright from "../Copyright/Copyright";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 			<Navigation />
 			<Cover />
 			<About />
+			<Advantages />
 			<Copyright />
 		</div>
 	)
