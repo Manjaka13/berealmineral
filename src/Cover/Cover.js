@@ -3,6 +3,7 @@ import {FontAwesomeIcon as Icon} from "@fortawesome/react-fontawesome";
 import {faPencilAlt} from "@fortawesome/free-solid-svg-icons";
 import "./Cover.scss";
 import logo from "../assets/logo_berealmineral.png";
+import Social from "../Social/Social";
 
 function Cover() {
 	return (
@@ -17,6 +18,7 @@ function Cover() {
 						<a className="app-text book" href="#book" title="Commander votre produit maintenant !">
 							<Icon icon={faPencilAlt} /> Commander
 						</a>
+						<Social />
 					</div>
 
 					<div className="right">
