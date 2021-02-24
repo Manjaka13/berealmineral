@@ -11,7 +11,7 @@ function Copyright() {
 				Fait avec <Icon className="heart" icon={faHeart} /> par <a className="link" href="https://github.com/Manjaka13" title="Le développeur web du site.">Manjaka13</a>.
 			</p>
 			<p className="app-text text-right">
-				<pre> </pre>Copyright © 2017 - {year}.
+				Copyright © 2017 - {year}.
 			</p>
 		</div>
 	)
