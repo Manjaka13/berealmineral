@@ -15,7 +15,7 @@ function Cover() {
 						<h1 className="app-title app-title-md title">Acheter des minéraux en France</h1>
 						<div className="separator"></div>
 						<p className="app-text text">Proident tempor proident consequat dolor officia anim enim occaecat duis incididunt fugiat reprehenderit adipisicing aute do sit anim est sunt in. Proident tempor proident consequat dolor officia anim enim occaecat duis incididunt fugiat reprehenderit adipisicing aute do sit anim est sunt in.</p>
-						<a className="app-text book" href="#book" title="Commander votre produit maintenant !">
+						<a className="app-text book" href="#contacts" title="Commander votre produit maintenant !">
 							<Icon icon={faPencilAlt} /> Commander
 						</a>
 						<Social />

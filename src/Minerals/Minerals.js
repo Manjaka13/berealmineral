@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./Minerals.scss";
-import loading from "../assets/loading.gif";
+/*import loading from "../assets/loading.gif";*/
 import minerals_category from "./minerals_category";
 import minerals_data from "./minerals_data";
 
