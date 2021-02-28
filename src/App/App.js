@@ -4,6 +4,7 @@ import Navigation from "../Navigation/Navigation";
 import Cover from "../Cover/Cover";
 import About from "../About/About";
 import Advantages from "../Advantages/Advantages";
+import Minerals from "../Minerals/Minerals";
 import Copyright from "../Copyright/Copyright";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<Cover />
 			<About />
 			<Advantages />
+			<Minerals />
 			<Copyright />
 		</div>
 	)
