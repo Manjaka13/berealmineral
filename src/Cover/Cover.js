@@ -14,7 +14,7 @@ function Cover() {
 					<div className="left">
 						<h1 className="app-title app-title-md title">Acheter des minéraux en France</h1>
 						<div className="separator"></div>
-						<p className="app-text text">Proident tempor proident consequat dolor officia anim enim occaecat duis incididunt fugiat reprehenderit adipisicing aute do sit anim est sunt in. Proident tempor proident consequat dolor officia anim enim occaecat duis incididunt fugiat reprehenderit adipisicing aute do sit anim est sunt in.</p>
+						<p className="app-text text"> Berealmineral se présente comme une société fournisseur de pierres diverses pour l'Europe. Les pierres viennent de Madagascar et sont travaillés par des artisans qualifiés. Que ce soit des pierres de décoration, des pierres précieuses ou encore des Quartz, pour particulier ou à échelle industrielle, nous livrons sur toute la France !</p>
 						<a className="app-text book" href="#contacts" title="Commander votre produit maintenant !">
 							<Icon icon={faPencilAlt} /> Commander
 						</a>

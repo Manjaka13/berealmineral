@@ -133,6 +133,12 @@ section {
 	display: block;
 	width: 80%;
 	margin: auto;
+	@media only screen and (max-width: $app-screen-sm) {
+		width: 90%;
+	}
+	@media only screen and (max-width: $app-screen-xsm) {
+		width: 93%;
+	}
 	.title1 {
 		text-align: left;
 		padding-top: 50px;
