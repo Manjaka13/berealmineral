@@ -57,7 +57,7 @@ function Minerals() {
 			</p>
 			<div className="list">
 				<div className="head">
-					<p className="app-text label">Trier par type:</p>
+					<p className="app-text label">Catégorie:</p>
 					<select className="app-text select" value={category} onChange={handle_change}>
 						<option value={default_category} key={0}>{default_category}</option>
 						{mapped_categories}
