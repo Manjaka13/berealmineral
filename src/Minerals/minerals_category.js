@@ -1,6 +1,6 @@
 const minerals_category = [
 	"Pierres brutes",
-	"Minéraux de collection",
+	"Collection",
 	"Les fossiles",
 	"Ornementaux",
 	"Pierres taillées",
